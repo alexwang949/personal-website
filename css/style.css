@@ -1,0 +1,71 @@
+html {
+}
+
+.nav-div {
+	background-color: black;
+	opacity: .7;
+	width: 100%;
+	position: fixed;
+	transition: top 0.2s ease-in-out;
+	top: 0;
+}
+
+.nav-div p {
+	width: 20%;
+	float: left;
+	background-color: black;
+	color: white;
+	text-align: center;
+	line-height: 3em;
+	top: 0;
+	height: 48px;
+}
+
+.nav-down p:hover {
+	background-color: gray;
+	color: white;
+	opacity: .9;
+}
+
+.nav-up {
+	top: -50px;
+}
+
+.nav-down {	
+	width: 100%;
+	position: fixed;
+	transition: top 0.2s ease-in-out;
+	top: 0;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.nav-div {
+	background-color: black;
+	opacity: .7;
+	display: block;
+}
+
+.nav-div p {
+	display: inline-block;
+	width: 20%;
+	float: left;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+}*/
