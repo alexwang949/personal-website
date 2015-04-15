@@ -1,3 +1,4 @@
+
 html {
 }
 
@@ -8,6 +9,7 @@ html {
 	position: fixed;
 	transition: top 0.2s ease-in-out;
 	top: 0;
+	color: white;
 }
 
 .nav-div p {
@@ -22,9 +24,8 @@ html {
 }
 
 .nav-down p:hover {
-	background-color: gray;
+	background-color: #25262b;
 	color: white;
-	opacity: .9;
 }
 
 .nav-up {
@@ -37,7 +38,6 @@ html {
 	transition: top 0.2s ease-in-out;
 	top: 0;	
 }
-
 
 
 
