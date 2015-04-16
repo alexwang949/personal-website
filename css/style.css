@@ -3,27 +3,40 @@ html {
 }
 
 .nav-div {
-	background-color: black;
-	opacity: .6;
+/*	background-color: black;
+	opacity: .6;*/
 	width: 100%;
 	position: fixed;
 	transition: top 0.1s ease-in-out;
 	top: 0;
-	color: white;
+/*	color: white;
+*/	overflow: hidden;
 }
 
-.nav-div p {
+/*.nav-div p {
 	width: 20%;
 	float: left;
-	background-color: black;
 	text-align: center;
 	line-height: 3em;
 	top: 0;
 	display: block;
+	color: white;
+}*/
+
+.nav-div .button-wrap {
+	width: 20%;
+	float: left;
+/*	background-color: black;
+*/	text-align: center;
+	line-height: 3em;
+	top: 0;
+	display: block;
+	color: white;
+
 }
 
-.nav-down p:hover {
-	background-color: #25262b;
+.nav-div .button-wrap:hover {
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .nav-up {
@@ -36,6 +49,23 @@ html {
 	transition: top 0.2s ease-in-out;
 	top: 0;	
 }
+
+.transp {
+	position: absolute;
+	background-color: black;
+	opacity: .6;
+	filter:alpha(opacity=50);  
+    -moz-opacity:0.5; 
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
 
 .content h1 {
 	text-align: center;
