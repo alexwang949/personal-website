@@ -4,10 +4,10 @@ html {
 
 .nav-div {
 	background-color: black;
-	opacity: .7;
+	opacity: .6;
 	width: 100%;
 	position: fixed;
-	transition: top 0.2s ease-in-out;
+	transition: top 0.1s ease-in-out;
 	top: 0;
 	color: white;
 }
@@ -19,7 +19,7 @@ html {
 	text-align: center;
 	line-height: 3em;
 	top: 0;
-	height: 48px;
+	display: block;
 }
 
 .nav-down p:hover {
@@ -40,17 +40,34 @@ html {
 .content h1 {
 	text-align: center;
 	font-size: 2em;
-	margin: 8em auto;
-	color: orange;
+	margin: auto;
+	padding-top: 20em;
+	color: red;
 }
 
 .content div {
-	height: 60em;
-	background-color: gray;
+	height: 70em;
+	background-color: #dbdcdf;
 	width: 100%;
-	border-width: 5px;
+	border-width: 0 0 10px 0;
 	border-color: black;
 	border-style: solid;
+}
+
+.about-section {
+/*	opacity: .5;
+*/	background-image: url("../images/tree.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+/*	-webkit-filter: blur(5px);
+	  -moz-filter: blur(5px);
+	  -o-filter: blur(5px);
+	  -ms-filter: blur(5px);
+	  filter: blur(5px);*/
+}
+
+.content .portfolio-section {
+	background-color: gray;
 }
 
 

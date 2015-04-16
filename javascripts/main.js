@@ -3,18 +3,19 @@ console.log('linked!');
 
 window.onload = function() {
 
-    $('#contact-button').click(function() {
+    $('.nav-div').click(function(event){
+        $targetText = $(event.target).text();
+        $targetDiv = $('.content').find('div[class*=' + $targetText + ']');
+
         $.smoothScroll({
-            scrollTarget: $('.contact-section'),
+            scrollTarget: $targetDiv,
             speed: 1000
         });
-    });
-
+    });     
         var didScroll;
         var lastScrollTop = 0;
         var delta = 5;
         var navBarHeight = $('nav-div').outerHeight();
-
 
         $(window).scroll(function(event){
             didScroll = true;
@@ -42,10 +43,17 @@ window.onload = function() {
 
             lastScrollTop = st;
 
-        }
-
+        };
    
 };
+
+
+    // $('#home-button').click(function() {
+    //     $.smoothScroll({
+    //         scrollTarget: $('.home-section'),
+    //         speed: 900
+    //     });
+    // });
 
 
 
